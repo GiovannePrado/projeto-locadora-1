@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
-import { UsuarioModule } from './usuario/usuario.module';
+import { FilmeModule} from './usuario/Filme.module';
 
 
 @Module({
-  imports: [UsuarioModule],
+  imports: [FilmeModule],
   controllers: [],
   providers: [],
 })
